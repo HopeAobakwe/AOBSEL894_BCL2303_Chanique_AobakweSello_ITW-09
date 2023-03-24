@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background: url(../images/desktop.jpg);
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 60px;
+    background: white;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0.1);
+}
+a{
+    color: rgb(51, 7, 92);
+}
+.container .sideA{
+    position: relative;
+    background-color: rgb(190, 186, 186);
+    padding:40px;
+    border-style: double;
+
+}
+.header{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.header .img{
+    position: relative;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header .img .image{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.header h1{
+    color:black;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.header h1 span{
+    font-size:  0.8em;
+    font-weight: 300;
+}
+.footer{
+    padding:40px;
+}
+
+.title{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.footer ul{
+    position:relative;
+}
+.footer ul li{
+    position:relative;
+    list-style: none;
+    margin:10px 0;
+    cursor: pointer;
+}
+.footer ul li .icon{
+    display:inline-block;
+    width:30px;
+    font-size: 18px;
+    color: black;
+}
+.footer ul li span{
+    color:#fff;
+    font-weight: 300;
+}
+.container .sideB{
+    position: relative;
+    background: white;
+    padding:40px;
+    border-style: double;
+}
+.container .sideB .abouted h3{
+    padding: 20px;
+    margin-right: 10px;
+}
+h2{
+    border-style:ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;  
+    text-align: center;
+    background-color: rgb(23, 23, 96);
+    color:aliceblue;
+    padding: 12px;
+    margin: 20px;
+}
+
+.section .box{
+    display:flex;
+    flex-direction: column;
+    margin:20px 0;
+
+}
+
+
+.section .box .company-year h5{
+    text-transform: uppercase;
+    font-weight:800;
+}
+.section .box .info h4{
+text-transform: uppercase;
+color:blue;
+font-size: 16px;
+}
+.info{
+    margin-left: 10px;
+}
+.skills .box{
+    position:relative;
+    width:100%;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color:#848c99;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative; right: 1em;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.skills .box .percent div{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background: #03a9f4;
+}
+
